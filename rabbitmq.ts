@@ -3,7 +3,7 @@
 const amqp = require('amqplib/callback_api');
 const payload = {}
 console.log({ jsonObject: payload, description: 'sendToQueue:payload' });
-const rabbit_mq_server='amqps://sreedhar:zinkoZinko@123@b-3d55819f-0290-4b7e-8130-ab40a320d62c.mq.us-east-1.amazonaws.com:5671'
+const rabbit_mq_server='amqps://hjhjh:zinkoZinko@123@b-3d55819f-0290-4b7e-8130-kjjj.mq.us-east-1.amazonaws.com:5671'
 // connect to rabbitmq server
 amqp.connect(rabbit_mq_server, (error0, connection) => {
     if (error0) {
